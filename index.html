@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/logo123.png" type="image/x-icon">
+    <!-- Poppins font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f5a7c4ebf6.js" crossorigin="anonymous"></script>
+    <title>Al Glazo Interiors and Decor LLC</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <section class="header">
+         <nav>
+            <a href="./"><img src="./images/new_logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="toggleMenu()"></i>
+                <ul>
+                    <li><a href="./">HOME</a></li>
+                    <li><a href="about">ABOUT US</a></li>
+                    <li><a href="services">SERVICES</a></li>
+                    <li><a href="gallery">GALLERY</a></li>
+                    <li><a href="contact">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </nav>  
+
+        <div class="text-box">
+            <h1><span style="text-align: center; color: #ADD8E6;">Welcome to</span><br>AL GLAZO INTERIORS & DECOR LLC </h1>
+            <p>Your Premier Destination for Exquisite Glass and Aluminium Solutions in the <span style="color:lightblue;font-weight: bold;">UAE</span> !</p>
+            <a class="hero-btn" href="contact">Visit Us to know more</a>
+        </div>
+
+    </section>
+
+
+    <section class="about">
+        <h1>Our Journey</h1>
+        <p>For more than two decades, we have been at the forefront of serving your interior and decor needs with proficiency and finesse. Throughout this journey, we've ascended the market ladder by consistently delivering premium products and services that seamlessly blend innovation and functionality.</p>
+    </section>
+
+
+    <section class="features-section">
+        <div class="features">
+            <h1>Why Choose AL GLAZO INTERIOR & DECOR LLC ?</h1>
+        <p>You might think why choosing our comapny</p>
+
+        <div class="row">
+            <div class="feature-col">
+                <h2 class="icons"><i class="fa-solid fa-trophy"></i> 22 </h2>
+                <p>Years of Service</p>
+            </div>
+            <div class="feature-col">
+                <h2 class="icons"><i class="fa-solid fa-users"></i> 532+ </h2>
+                <p>Customers </p>
+            </div>
+            <div class="feature-col feature-last">
+                <h2 class="icons"><i class="fa-solid fa-thumbs-up"></i> 1670</h2>
+                <p>Projects </p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+        <p>
+            <a href="tel:0586763951"><i class="fa-solid fa-phone"></i> <span>0586763951</span></a>
+            |    <a href="tel:0557677438"><i class="fa-solid fa-phone"></i> <span>0557677438</span></a>
+            <br>
+              <a href="mailto:sales@alglazo.com"><i class="fa-regular fa-envelope"></i> sales@alglazo.com</a>
+              <a href="mailto:finance@alglazo.com"><i class="fa-regular fa-envelope"></i> finance@alglazo.com</a>
+        </p>
+        <h4>©Al Glazo Interiors and Decor LLC </h4>
+    </section>
+
+    <script>
+        function toggleMenu() {
+            var navLinks = document.getElementById("navLinks");
+            navLinks.style.display = navLinks.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
+    
+    </body>
+</html>

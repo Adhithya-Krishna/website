@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./images/logo123.png" type="image/x-icon">
+        <!-- Poppins font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;800&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/f5a7c4ebf6.js" crossorigin="anonymous"></script>
+        <title>Al Glazo Interiors and Decor LLC</title>
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+<body>
+    <section class="sub-header about-header">
+         <nav>
+            <a href="./"><img src="./images/new_logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="toggleMenu()"></i>
+                <ul>
+                    <li><a href="./">HOME</a></li>
+                    <li><a href="about">ABOUT US</a></li>
+                    <li><a href="services">SERVICES</a></li>
+                    <li><a href="gallery">GALLERY</a></li>
+                    <li><a href="contact">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </nav>  
+        <h1>ABOUT US</h1>
+    </section>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <p>We, the <span class="main-points"> AL GLAZO INTERIOR & DECOR LLC</span>, the veterans of architectural glass and metal fabrication products & service providers throughout UAE. Over <span class="main-points exp">22 </span> years  , we have been serving your interior & decor needs proficiently, excelling our way up the market with our premium products & services at prices which may easily fit in everyone’s budget. Our Clientele spans from industrial to commercial buildings as well as domestic households. </p>
+                <a href="gallery" class="hero-btn red-btn">Explore Now</a>
+            </div>
+            <div class="about-col">
+                <img src="images/aboutpic1.jpg" alt="firstpic">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="about-col">
+                <p>We provide a wide range of products and services, tailor made to suit your requirement keeping your budget in mind without compromising the quality. <br> At Al Glazo, our team constitutes highly experienced professional experts with interdisciplinary ace to execute your projects , assuring top notch service you can ever avail in the niche. </p>
+                <a href="services" class="hero-btn red-btn">Services Provided</a>
+            </div>
+            <div class="about-col">
+                <img src="images/service provided.jpg" alt="firstpic">
+            </div>
+        </div>
+    </section>
+    
+    <!-- footer -->
+    <section class="footer">
+        <p>
+            <a href="tel:0586763951"><i class="fa-solid fa-phone"></i> <span>0586763951</span></a>
+            |    <a href="tel:0557677438"><i class="fa-solid fa-phone"></i> <span>0557677438</span></a>
+            <br>
+              <a href="mailto:sales@alglazo.com"><i class="fa-regular fa-envelope"></i> sales@alglazo.com</a>
+              <a href="mailto:finance@alglazo.com"><i class="fa-regular fa-envelope"></i> finance@alglazo.com</a>
+        </p>
+        <h4>©Al Glazo Interiors and Decor LLC </h4>
+    </section>
+
+    <script>
+        function toggleMenu() {
+            var navLinks = document.getElementById("navLinks");
+            navLinks.style.display = navLinks.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
+    
+    </body>
+</html>

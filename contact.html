@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./images/logo123.png" type="image/x-icon">
+        <!-- Poppins font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;800&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/f5a7c4ebf6.js" crossorigin="anonymous"></script>
+        <title>Al Glazo Interiors and Decor LLC</title>
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+<body>
+    <section class=" sub-header contact-header">
+         <nav>
+            <a class="logo" href="./"><img src="./images/new_logo.png" alt="Al_Glazo_logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="toggleMenu()"></i>
+                <ul>
+                    <li><a href="./">HOME</a></li>
+                    <li><a href="about">ABOUT US</a></li>
+                    <li><a href="services">SERVICES</a></li>
+                    <li><a href="gallery">GALLERY</a></li>
+                    <li><a href="contact">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </nav>  
+        <h1>CONTACT US</h1>
+    </section>
+
+    <!-- contact section -->
+    
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d901.1787052242502!2d55.483503369524264!3d25.380872510259195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDIyJzUxLjEiTiA1NcKwMjknMDIuOSJF!5e0!3m2!1sen!2sin!4v1699880933345!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <span><h5>Al Glazo interiors and decor LLC</h5>
+                    <p>Industrial Area , Ajman , UAE <br>
+                        PO Box 12927</p></span>
+                        
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>
+                        <h5><a href="tel:+971586763951">+971586763951</a> ,<a href="tel:+971557677438">+971557677438</a> , <a href="tel:+971558766483">+971558766483</a></h5>
+                        <p>Monday to Saturday , 8AM TO 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>
+                        <h5><a href="mailto: sales@alglazo.com"> sales@alglazo.com</a> , <a href="mailto:info@alglazo.com">info@alglazo.com </a>, <a href="mailto:finance@alglazo.com">finance@alglazo.com</a> </h5>
+                        <p>Email us your enquiry</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form method="post" action="./form-handler.php" >
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                    <input type="text" name="email" placeholder="Enter Your Email Address" required>
+                    <input type="text" name="subject" placeholder="Enter Subject" required>
+                    <textarea rows="8" name="message" placeholder="Mesage" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Submit</button>
+                </form> 
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+        <p>
+            <a href="tel:0586763951"><i class="fa-solid fa-phone"></i> <span>0586763951</span></a>
+            |    <a href="tel:0557677438"><i class="fa-solid fa-phone"></i> <span>0557677438</span></a>
+            <br>
+              <a href="mailto:sales@alglazo.com"><i class="fa-regular fa-envelope"></i> sales@alglazo.com</a>
+              <a href="mailto:finance@alglazo.com"><i class="fa-regular fa-envelope"></i> finance@alglazo.com</a>
+        </p>
+        <h4>©Al Glazo Interiors and Decor LLC </h4>
+    </section>
+
+    <script>
+            function toggleMenu() {
+                var navLinks = document.getElementById("navLinks");
+                navLinks.style.display = navLinks.style.display === 'none' ? 'block' : 'none';
+            }
+    </script>
+    
+    </body>
+</html>
